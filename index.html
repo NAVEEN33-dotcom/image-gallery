@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles-1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+    <h1>📸 Image Gallery</h1>
+  </header>
+
+  <main class="gallery-container">
+    <!-- Gallery images will go here -->
+    <div class="gallery">
+      <img src="images/img1.jpeg" alt="Gallery Image 1" />
+      <img src="images/img2.jpeg" alt="Gallery Image 2" />
+      <img src="images/img3.jpeg" alt="Gallery Image 3" />
+      <img src="images/img4.jpeg" alt="Gallery Image 4" />
+      <img src="images/img5.jpeg" alt="Gallery Image 5" />
+      <img src="images/img6.jpeg" alt="Gallery Image 6" />
+      <img src="images/img7.jpeg" alt="Gallery Image 7" />
+      <img src="images/img8.jpeg" alt="Gallery Image 8" />
+      
+    </div>
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" />
+    </div>
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" />
+        <span class="nav prev">&#10094;</span>
+        <span class="nav next">&#10095;</span>
+    </div>
+
+
+  </main>
+
+  <script src="script.js"></script>
+  </body>
+</html>
